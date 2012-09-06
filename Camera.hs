@@ -1,4 +1,4 @@
-module Camera where
+module GraphicsUtils.Camera where
 
 import Control.Applicative
 import Control.Monad

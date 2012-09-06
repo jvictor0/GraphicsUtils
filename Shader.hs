@@ -1,4 +1,4 @@
-module Shader where
+module GraphicsUtils.Shader where
 
 import Control.Applicative
 import Control.Monad

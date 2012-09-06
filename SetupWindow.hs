@@ -1,4 +1,4 @@
-module SetupWindow where
+module GraphicsUtils.SetupWindow where
 
 import Control.Applicative
 import Control.Monad
@@ -9,7 +9,7 @@ import Graphics.UI.GLUT
 
 
 setupWindow :: String -> IO ()
-setupWinow name = do
+setupWindow name = do
   getArgsAndInitialize
   initialDisplayMode $= [ RGBMode, WithDepthBuffer, DoubleBuffered ]
   initialWindowSize $= Size 500 500
